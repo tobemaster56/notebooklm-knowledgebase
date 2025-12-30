@@ -35,6 +35,7 @@ pnpm preview
 ### Contributing
 
 We welcome contributions! Whether it's:
+
 - Adding new tutorials
 - Sharing use cases
 - Updating documentation
@@ -72,6 +73,7 @@ Please feel free to submit a Pull Request.
 ## What is NotebookLM?
 
 NotebookLM is Google's AI-powered note-taking and research assistant that helps you:
+
 - Understand complex documents and sources
 - Generate summaries and insights
 - Ask questions about your content

@@ -38,27 +38,31 @@
 ### 入门教程
 
 **文字教程：**
-- [NotebookLM 完全指南](./zh/getting-started.md) - 本知识库的入门指南
+
+- [NotebookLM 完全指南](/v1/zh/getting-started.md) - 本知识库的入门指南
 - [Google Workspace 博客](https://workspace.google.com/blog/) - 官方使用技巧
 
 **视频教程：**
+
 - YouTube 搜索 "NotebookLM tutorial"
 - B站搜索 "NotebookLM 教程"
 
 ### 进阶学习
 
-- [高级功能教程](../v1/zh/tutorials/advanced.md) - 深入掌握高级技巧
-- [最佳实践](../v1/zh/tutorials/best-practices.md) - 专业使用建议
-- [使用案例](../examples/zh/) - 真实应用场景
+- [高级功能教程](/v1/zh/tutorials/advanced.md) - 深入掌握高级技巧
+- [最佳实践](/v1/zh/tutorials/best-practices.md) - 专业使用建议
+- [使用案例](/examples/zh/) - 真实应用场景
 
 ### 相关技术
 
 **AI 和机器学习：**
+
 - [Large Language Models (LLM)](https://en.wikipedia.org/wiki/Large_language_model) - 大型语言模型介绍
 - [Retrieval-Augmented Generation (RAG)](https://arxiv.org/abs/2005.11401) - RAG 技术论文
 - [Prompt Engineering](https://www.promptingguide.ai/) - 提示工程指南
 
 **笔记和知识管理：**
+
 - [Zettelkasten Method](https://zettelkasten.de/) - 卡片笔记法
 - [Personal Knowledge Management](https://en.wikipedia.org/wiki/Personal_knowledge_management) - 个人知识管理
 
@@ -67,16 +71,19 @@
 ### 配套工具
 
 **文档管理：**
+
 - [Google Drive](https://drive.google.com/) - 与 NotebookLM 无缝集成
 - [Zotero](https://www.zotero.org/) - 文献管理工具
 - [Mendeley](https://www.mendeley.com/) - 学术参考管理
 
 **笔记工具：**
+
 - [Notion](https://www.notion.so/) - 强大的笔记和协作平台
 - [Obsidian](https://obsidian.md/) - 本地知识库
 - [Evernote](https://evernote.com/) - 经典笔记应用
 
 **PDF 处理：**
+
 - [Adobe Acrobat](https://acrobat.adobe.com/) - PDF 编辑
 - [PDFtk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) - PDF 工具包
 - [Smallpdf](https://smallpdf.com/) - 在线 PDF 工具
@@ -84,6 +91,7 @@
 ### 浏览器扩展
 
 **生产力工具：**
+
 - [Save to Google Drive](https://chrome.google.com/webstore/) - 快速保存网页
 - [OneTab](https://www.one-tab.com/) - 标签页管理
 - [Pocket](https://getpocket.com/) - 稍后阅读
@@ -93,6 +101,7 @@
 ### 快速技巧
 
 **提问技巧：**
+
 ```
 ✅ 好的提问：
 "基于这三篇论文，总结机器学习在医疗诊断中的应用，并列出主要挑战。"
@@ -102,6 +111,7 @@
 ```
 
 **文档准备：**
+
 ```
 ✅ 好的实践：
 - 清晰的文档标题
@@ -115,6 +125,7 @@
 ```
 
 **组织建议：**
+
 ```
 ✅ 推荐方式：
 项目A/
@@ -129,6 +140,7 @@
 ### 效率提升
 
 **键盘快捷键：**
+
 - `Ctrl/Cmd + K` - 快速搜索
 - `Ctrl/Cmd + Enter` - 发送消息
 - `Ctrl/Cmd + /` - 查看帮助
@@ -136,6 +148,7 @@
 **工作流程模板：**
 
 **学术研究模板：**
+
 ```
 1. 文献收集（上传论文）
 2. 初步阅读（生成摘要）
@@ -145,6 +158,7 @@
 ```
 
 **商业分析模板：**
+
 ```
 1. 数据收集（上传报告）
 2. 市场分析（提取见解）
@@ -173,6 +187,7 @@ A: 数据存储在 Google 云端，受 Google 隐私政策保护。建议不要�
 
 **Q: 为什么文档处理失败？**
 A: 可能原因：
+
 - 文件格式不支持
 - 文件太大
 - 网络连接问题
@@ -180,6 +195,7 @@ A: 可能原因：
 
 **Q: 如何提高 AI 回答质量？**
 A: 建议：
+
 - 上传高质量文档
 - 提出明确具体的问题
 - 提供充足的上下文
@@ -187,6 +203,7 @@ A: 建议：
 
 **Q: 音频生成失败怎么办？**
 A: 尝试：
+
 - 确保有足够的来源文档
 - 检查网络连接
 - 稍后重试
@@ -208,12 +225,14 @@ A: 尝试：
 ### 何时使用 NotebookLM
 
 **最适合：**
+
 - ✅ 需要分析特定文档
 - ✅ 学术研究和学习
 - ✅ 需要可追溯的引用
 - ✅ 团队协作项目
 
 **可能不适合：**
+
 - ❌ 需要实时网络搜索
 - ❌ 创意写作（无参考资料）
 - ❌ 简单的问答
@@ -224,18 +243,20 @@ A: 尝试：
 ### 关注更新
 
 **官方渠道：**
+
 - [Google AI 博客](https://blog.google/technology/ai/)
 - [Google Workspace Updates](https://workspace.google.com/blog/)
 - [Twitter @Google](https://twitter.com/Google)
 
 **社区渠道：**
+
 - 本知识库的 [Discussions](https://github.com/tobemaster56/notebooklm-knowledgebase/discussions)
 - Reddit r/Google
 - 技术新闻网站
 
 ### 最近更新
 
-查看 [发展历史](../v1/zh/history.md) 了解 NotebookLM 的最新功能和更新。
+查看 [发展历史](/v1/zh/history.md) 了解 NotebookLM 的最新功能和更新。
 
 ## 贡献和反馈
 
@@ -250,6 +271,7 @@ A: 尝试：
 - 📚 分享你的使用经验
 
 **如何贡献：**
+
 1. Fork 本项目
 2. 创建你的功能分支
 3. 提交你的更改
@@ -260,6 +282,7 @@ A: 尝试：
 ### 反馈 NotebookLM
 
 **向 Google 反馈：**
+
 - [官方反馈表单](https://notebooklm.google.com/) - 在应用内提供反馈
 - [Google Support](https://support.google.com/notebooklm/) - 报告问题
 - [Google Help Community](https://support.google.com/notebooklm/community) - 社区讨论
@@ -267,6 +290,7 @@ A: 尝试：
 ## 保持联系
 
 **加入社区：**
+
 - ⭐ 为本项目加星
 - 👀 Watch 本项目获取更新
 - 💬 参与 Discussions 讨论
@@ -278,10 +302,10 @@ A: 尝试：
 
 ## 相关阅读
 
-- [NotebookLM 简介](../v1/zh/)
-- [快速开始](../v1/zh/getting-started.md)
-- [使用案例](../examples/zh/)
-- [发展历史](../v1/zh/history.md)
+- [NotebookLM 简介](/v1/zh/)
+- [快速开始](/v1/zh/getting-started.md)
+- [使用案例](/examples/zh/)
+- [发展历史](/v1/zh/history.md)
 
 ---
 

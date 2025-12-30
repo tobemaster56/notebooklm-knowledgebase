@@ -38,6 +38,7 @@ greet("世界")
 :::
 
 ::: details 顯示程式碼範例
+
 ```typescript
 interface User {
   name: string;
@@ -49,6 +50,7 @@ const user: User = {
   email: 'zhangsan@example.com'
 };
 ```
+
 :::
 
 ### 表格

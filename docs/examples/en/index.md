@@ -38,6 +38,7 @@ This indicates a critical issue or breaking change.
 :::
 
 ::: details Show Code Example
+
 ```typescript
 interface User {
   name: string;
@@ -49,6 +50,7 @@ const user: User = {
   email: 'john@example.com'
 };
 ```
+
 :::
 
 ### Tables

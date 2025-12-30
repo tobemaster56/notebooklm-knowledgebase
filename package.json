@@ -1,15 +1,15 @@
 {
-    "name": "vitepress-i18n-template",
+    "name": "notebooklm-knowledgebase",
     "private": true,
     "type": "module",
-    "description": "A VitePress template with multi-language support, version-based documentation structure, and custom components",
+    "description": "一个关于谷歌 NotebookLM 的百科知识库，包含 NotebookLM 的教程用法、使用案例和历史发展脉络",
     "repository": {
         "type": "git",
-        "url": "https://github.com/tobemaster56/vitepress-i18n-template.git"
+        "url": "https://github.com/tobemaster56/notebooklm-knowledgebase.git"
     },
-    "homepage": "https://github.com/tobemaster56/vitepress-i18n-template#readme",
+    "homepage": "https://github.com/tobemaster56/notebooklm-knowledgebase#readme",
     "bugs": {
-        "url": "https://github.com/tobemaster56/vitepress-i18n-template/issues"
+        "url": "https://github.com/tobemaster56/notebooklm-knowledgebase/issues"
     },
     "scripts": {
         "dev": "vitepress dev docs",

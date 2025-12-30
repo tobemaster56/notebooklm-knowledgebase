@@ -3,29 +3,32 @@
 layout: home
 
 hero:
-  name: "My Documentation"
-  tagline: "A VitePress template with multi-language support and version-based documentation"
+  name: "NotebookLM"
+  text: "知识库"
+  tagline: "全面了解 Google NotebookLM - AI 驱动的研究助手"
   actions:
     - theme: brand
-      text: Get Started
-      link: /v1/en/
+      text: 开始学习
+      link: /v1/zh/
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/your-username/your-repo
+      text: 查看案例
+      link: /examples/zh/
 
 features:
-  - title: Multi-Language Support
-    details: Built-in support for English, Simplified Chinese, and Traditional Chinese with easy language switching.
-    link: /v1/en/
-    linkText: Read Docs
-  - title: Version-Based Structure
-    details: Organize your documentation by versions (v1, v2, etc.) to support multiple product releases.
-  - title: Custom Components
-    details: Includes a language switcher component and custom markdown containers for enhanced documentation.
-    link: /examples/en/
-    linkText: View Examples
-  - title: Easy to Customize
-    details: Built on VitePress with Vue 3, making it easy to extend and customize to your needs.
-    link: /resources/en/
-    linkText: View Resources
+  - title: 📚 完整教程
+    details: 从入门到精通，涵盖 NotebookLM 的所有功能和使用技巧，帮助你快速上手。
+    link: /v1/zh/getting-started
+    linkText: 快速开始
+  - title: 💡 实战案例
+    details: 学术研究、商业应用、个人学习等多个领域的真实使用案例，激发你的创意。
+    link: /examples/zh/
+    linkText: 查看案例
+  - title: 📈 发展历程
+    details: 追踪 NotebookLM 从诞生到现在的发展轨迹，了解每个重要版本的新功能。
+    link: /v1/zh/history
+    linkText: 查看时间线
+  - title: 🌍 多语言支持
+    details: 提供中英文内容，让不同语言背景的用户都能轻松学习使用 NotebookLM。
+    link: /resources/zh/
+    linkText: 查看资源
 ---

@@ -1,72 +1,61 @@
-# VitePress 多语言模板
+# NotebookLM 知识库
 
-一个支持多语言、版本化文档结构和自定义组件的 VitePress 模板。
+一个关于谷歌 NotebookLM 的百科知识库，包含 NotebookLM 的教程用法、使用案例和历史发展脉络。
 
 [English](./README.md)
 
-## 功能特点
+## 关于本项目
 
-- **多语言支持** - 内置英文、简体中文和繁体中文支持
-- **版本化结构** - 按产品版本（v1、v2 等）组织文档
-- **语言切换器** - 自定义 Vue 组件，实现无缝语言切换
-- **自定义容器** - 增强的 Markdown 容器（提示、警告、危险、详情）
-- **现代技术栈** - 基于 VitePress 2.0 和 Vue 3.5 构建
+这是一个社区驱动的 Google NotebookLM 知识库，包含：
+
+- **完整教程** - NotebookLM 使用的分步指南
+- **真实案例** - 来自各个领域的使用示例
+- **历史时间线** - 发展历史和功能演进
+- **多语言支持** - 提供英文、简体中文和繁体中文
+- **现代文档** - 使用 VitePress 2.0 和 Vue 3.5 构建
 
 ## 快速开始
 
-### 使用此模板
-
-1. 点击 GitHub 上的 "Use this template" 按钮
-2. 克隆您的新仓库
-3. 安装依赖：
+### 开发
 
 ```bash
-pnpm install
-```
-
-4. 启动开发服务器：
-
-```bash
-pnpm dev
-```
-
-### 手动设置
-
-```bash
-# 克隆仓库
-git clone https://github.com/your-username/vitepress-i18n-template.git
-cd vitepress-i18n-template
-
 # 安装依赖
 pnpm install
 
-# 启动开发
+# 启动开发服务器
 pnpm dev
+
+# 构建生产版本
+pnpm build
+
+# 预览生产构建
+pnpm preview
 ```
+
+### 贡献
+
+我们欢迎各种形式的贡献：
+- 添加新教程
+- 分享使用案例
+- 更新文档
+- 修正错误
+- 翻译内容
+
+欢迎提交 Pull Request！
 
 ## 项目结构
 
 ```
 ├── docs/
-│   ├── .vitepress/
-│   │   ├── config.ts          # 站点配置
-│   │   ├── markdown/
-│   │   │   └── containers.ts  # 自定义 Markdown 容器
-│   │   └── theme/
-│   │       ├── index.ts       # 主题入口
-│   │       ├── style.css      # 自定义样式
-│   │       └── components/
-│   │           └── LanguageSwitcher.vue
-│   ├── v1/                    # 版本 1 文档
-│   │   ├── en/               # 英文
-│   │   ├── zh/               # 简体中文
-│   │   └── zh-TW/            # 繁体中文
-│   ├── v2/                    # 版本 2 文档
-│   ├── examples/              # 示例内容
-│   ├── resources/             # 资源部分
-│   ├── public/               # 静态资源
-│   └── index.md              # 首页
-├── package.json
+│   ├── .vitepress/           # VitePress 配置
+│   ├── v1/                   # 主要文档
+│   │   ├── en/              # 英文
+│   │   ├── zh/              # 简体中文
+│   │   └── zh-TW/           # 繁体中文
+│   ├── examples/            # 使用案例和示例
+│   ├── resources/           # 额外资源
+│   ├── public/             # 静态资源
+│   └── index.md            # 首页
 └── README.md
 ```
 
@@ -80,75 +69,30 @@ pnpm dev
 | `pnpm lint:md` | 检查 Markdown 文件 |
 | `pnpm lint:md:fix` | 修复 Markdown 检查问题 |
 
-## 自定义
+## 什么是 NotebookLM？
 
-### 站点配置
+NotebookLM 是谷歌推出的 AI 驱动的笔记和研究助手，可以帮助您：
+- 理解复杂的文档和来源
+- 生成摘要和见解
+- 对内容进行提问
+- 创建学习指南和音频概述
+- 与他人协作研究
 
-编辑 `docs/.vitepress/config.ts` 来自定义：
-
-- 站点标题和描述
-- 导航和侧边栏
-- 社交链接
-- 主题设置
-
-### 添加语言
-
-1. 创建新的语言目录（例如，`v1/ja/` 用于日语）
-2. 在 `config.ts` 中添加侧边栏配置
-3. 在 `LanguageSwitcher.vue` 中更新新语言
-
-### 添加版本
-
-1. 创建新的版本目录（例如，`v3/en/`、`v3/zh/`、`v3/zh-TW/`）
-2. 为新版本添加侧边栏配置
-3. 在 `config.ts` 中更新导航
-
-### 自定义容器
-
-在文档中使用自定义 Markdown 容器：
-
-```markdown
-::: tip 标题
-有用的提示内容
-:::
-
-::: warning 标题
-警告信息
-:::
-
-::: danger 标题
-严重警告
-:::
-
-::: details 标题
-可折叠内容
-:::
-```
+本知识库包含掌握 NotebookLM 所需的一切内容。
 
 ## 技术栈
 
-- [VitePress](https://vitepress.dev/) 2.0.0-alpha.15
+- [VitePress](https://vitepress.dev/) 2.0
 - [Vue.js](https://vuejs.org/) 3.5
-- [Node.js](https://nodejs.org/) 22.x（通过 Volta）
-- [pnpm](https://pnpm.io/) 包管理器
-
-## 部署
-
-### GitHub Pages
-
-1. 设置 GitHub Actions 进行自动部署
-2. 在仓库设置中配置 GitHub Pages
-
-### Vercel / Netlify
-
-1. 连接您的仓库
-2. 设置构建命令：`pnpm build`
-3. 设置输出目录：`docs/.vitepress/dist`
+- [Node.js](https://nodejs.org/) 22.x
+- [pnpm](https://pnpm.io/)
 
 ## 许可证
 
-MIT 许可证 - 可以自由使用此模板用于您自己的项目。
+MIT 许可证
 
-## 贡献
+## 相关链接
 
-欢迎贡献！请随时提交 Pull Request。
+- [Google NotebookLM](https://notebooklm.google.com/)
+- [官方帮助中心](https://support.google.com/notebooklm/)
+- [社区论坛](https://github.com/tobemaster56/notebooklm-knowledgebase/discussions)
